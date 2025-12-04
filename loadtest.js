@@ -6,5 +6,5 @@ export const options = {
 };
 
 export default function () {
-  http.get('http://localhost:5001/api/tasks');
+  http.get('http://localhost:5000/api/payment/orders');
 }
